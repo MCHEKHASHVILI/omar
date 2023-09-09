@@ -1,0 +1,790 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Inter-Bold;
+  src: url(../Font/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: Inter-light;
+    src: url(../Font/Inter-Light.ttf);
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(../Font/Inter-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Inter-Medium;
+  src: url(../Font/Inter-Medium.ttf);
+}
+
+
+body{
+  background: #FAE5E5;
+}
+.container{
+  display: flex;
+  width: 100%;
+}
+nav{
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 20%;
+  height: 100vh;
+  background: #fff;
+}
+.navbar{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo{
+  margin: 2rem 0 1rem 0;
+  padding-bottom: 3rem;
+  /* display: flex; */
+  text-align: center;
+}
+
+.image-upload>input {
+  display: none;
+}
+
+.image-upload label{
+  cursor: pointer;
+}
+
+.image-upload {
+  position: relative;
+  margin-top: 25%;
+}
+
+p.file-name {
+  color:black;
+  font-family: 'Inter-light';
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 5%;
+  line-height: 2;
+}
+
+p.file-membership {
+  color: #DD5353;
+  font-family: 'Inter-light';
+  font-weight: 700;
+  font-size: 14px;
+}
+
+span.nav-item {
+  padding-left: 4%;
+}
+
+ul{
+  margin: 0 auto;
+}
+
+li{
+  padding-bottom: 2rem;
+}
+
+li a{
+  font-size: 15px;
+  color:rgba(38, 36, 22, 0.3);
+  font-family: Inter-light;
+}
+
+li a:hover{
+    color: black;
+}
+
+li a:active
+{
+    color: black;
+}
+s
+nav i{
+  width: 50px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.logout{
+/*  position: absolute;*/
+/*  bottom: 100px;*/
+margin-top: 50%;
+  width: 100%;
+}
+
+
+.main {
+  width: 80%;
+  margin-left: 5%;
+
+}
+
+.accordion {
+  background-color: #fff !important;
+  border-radius: 9px;
+  width: 95% !important;
+  height: 83px;
+  text-align: left;
+  font-size: 15px;
+  margin-top: 3%;
+  padding: 0 20px 0 20px;
+}
+
+.accordion-image
+{
+  margin-left: -8%;
+  margin-right: 0%;
+  margin-top: 5.5%;
+  cursor: pointer;
+}
+
+.main-accordian
+{
+  display: flex;
+}
+
+.accordian1
+{
+  width: 100% !important;
+}
+
+.accordion h1{
+  font-family: 'Inter';
+  font-size: 18px;
+  color: black;
+}
+
+.accordion p{
+  line-height: 40px;
+  font-family: 'Inter-light';
+  font-size: 14px;
+  color:rgba(38, 36, 22, 0.6);
+
+}
+
+
+/* ---form---- */
+
+
+.form-container
+{
+    width: 80%;
+
+}
+.wrapper
+{
+  width:100%;
+  border-radius: 10px;
+  padding: 05% 0% 10% 10%;
+}
+
+.wrapper h1{
+  font-family: 'Inter-Bold';
+  font-size: 40px;
+  margin-bottom: 8%;
+
+}
+
+form input
+{
+  width: 60%;
+  outline: none;
+  border: 1px solid white;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  border-radius: 9px;
+  background-color: white;
+  color: black;
+  font-family: 'Inter-light';  
+}
+
+form .radio p{
+  font-family: Inter;
+  color: black;
+}
+
+form .radio label {
+  font-family: Inter;
+  color: black;
+  line-height: 3;
+  border-radius: 9px;
+  margin-right: 4%;
+}
+
+form .radio input{
+  width: 2%;
+}
+
+form .radio1 p{
+  font-family: Inter;
+  color: black;
+}
+
+form .radio1 label {
+  font-family: Inter;
+  color: black;
+  line-height: 3;
+  border-radius: 9px;
+  margin-right: 4%;
+}
+
+form .radio2 input{
+  width: 7%;
+}
+
+form .radio2 p{
+  font-family: Inter;
+  color: black;
+}
+
+form .radio2 label {
+  font-family: Inter;
+  color: black;
+  line-height: 3;
+  border-radius: 9px;
+  margin-right: 4%;
+}
+
+form .radio1 input{
+  width: 7%;
+}
+
+.wrapper button
+{
+  font-size: 1rem;
+  margin-top: 1.8rem;
+  padding: 10px 0;
+  border-radius: 9px;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  background-color: red;
+  width: 60%;
+  font-family: Inter;
+  border:1px solid red;
+
+}
+
+
+
+.main-radio
+{
+  display: flex;
+}
+
+.radio1{
+  width: 37%;
+}
+
+.radio2{
+  width: 32%;
+}
+
+
+.file
+{
+  display: flex;
+  width: 100%;
+}
+
+.image-file
+{
+  width: 38%;
+}
+
+.image-file label , .video-file label{
+  line-height: 27px;
+  color: black;
+  font-family: Inter;
+
+}
+
+.video-file
+{
+  width: 38%;
+}
+.wrapper button:hover
+
+{
+  background-color: transparent;
+  border:1px solid red;
+  color: black;
+  transition: .5s all ease;
+}
+
+
+.open-modal {
+  background: #20c997;
+  color: #fff;
+  border: none;
+  padding: 20px 40px;
+  font-size: 48px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s;
+  outline: none;
+}
+
+.open-modal:active {
+  transform: translateY(-17px);
+}
+/* ---- Model ----- */
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 50px;
+  width: 896px;
+  height: 534px;
+  border-radius: 20px;
+
+}
+
+.modal-content h1{
+  font-family: Inter-Bold;
+}
+
+.modal-content p
+{
+  font-family: Inter-Medium;
+  font-size: 14px;
+  margin-top: 2%;
+  color: #807E9A;
+}
+
+
+form.radioo
+{
+  margin-top: 5%;
+}
+
+form.radioo label
+{
+  display: block;
+  font-family: Inter;
+  color: black;
+  font-size: 15px;
+}
+
+form.radioo label span
+{
+  color: #DD5353;
+}
+
+form.radioo input[type="radio"]
+{
+  display: inline;
+  width: auto;
+  margin-right: 1%;
+}
+
+#input-field-container {
+  display: none;
+}
+
+#input-field-container p{
+  color: black;
+  font-family: Inter-Medium;
+  margin: 0;
+}
+
+
+.subscribe-radio {
+  width: 319px;
+  height: 44px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  margin-top: 1%;
+  padding: 10px;
+  color: rgb(0 0 0 / 63%);
+  margin-bottom: 2%;
+  font-family: Inter-Medium;
+
+}
+
+select.subscribe-radio option
+{
+  background-color: white;
+  font-family: Inter-Medium;
+  color: black;
+}
+
+
+#input-field-container p{
+  color: black;
+  font-family: Inter-Medium;
+  margin: 0;
+}
+
+.applePay-toggle
+{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.googlePay-toggle
+{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.applePay-col1 {
+  display: flex;
+  width: 170px;
+  border: 2px solid #e6e6e6;
+  margin: 2% 0%;
+  height: 61px;
+  background: #F2F2F2;
+  border-radius: 10px;
+}
+
+.googlePay-col1 {
+  display: flex;
+  width: 170px;
+  border: 2px solid #e6e6e6;
+  margin: 2% 0%;
+  height: 61px;
+  background: #F2F2F2;
+  border-radius: 10px;
+}
+
+
+.inner-applePay1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  margin-left: 7%;
+}
+
+.inner-googlePay1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  margin-left: 7%;
+}
+
+
+img.subs-img {
+  height: 20px;
+  margin: 5%;
+}
+
+
+
+.applePay-col2
+{
+  display: flex;
+  width: 170px;
+  border: 2px solid #e6e6e6;
+  margin: 2% 0% 0% 1%;
+  height: 61px;
+  background: #F2F2F2;
+  border-radius: 10px;
+}
+
+.inner-applePay2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  margin-left: 7%;
+}
+
+.googlePay-col2
+{
+  display: flex;
+  width: 170px;
+  border: 2px solid #e6e6e6;
+  margin: 2% 0% 0% 1%;
+  height: 61px;
+  background: #F2F2F2;
+  border-radius: 10px;
+}
+
+.inner-googlePay2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  margin-left: 7%;
+}
+
+
+img.subs-img1 {
+  height: 20px;
+  margin: 5%;
+}
+
+
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.popup-button {
+  text-align: center;
+  margin-top: 15% !important;
+}
+
+.popup-button button
+{
+  background: #DD5353;
+    color: white;
+    border: 2px solid rgba(221, 83, 83, 0.4);
+    border-radius: 10px;
+    width: 184px;
+    height: 44px;
+    font-family: Inter;
+    cursor: pointer;
+}
+
+
+.responsive-header {
+  display: none;
+  width: 105%;
+  background-color: white;
+  min-height: 150px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3%;
+}
+
+.mobile-header
+{
+  /* width: 105%;
+  height: 150px;
+  background-color: white; */
+  display: flex !important;
+  flex-direction: row;
+}
+
+.search-icon-header
+{
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%;
+}
+
+.search-icon-header img
+{
+  width: 50px;
+}
+
+.logo-header
+{
+  width: 34%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.humburger-header {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 5%;
+}
+
+.humburger-header img
+{
+  width: 50px;
+}
+
+
+/* Mobile Responsive  */
+
+@media screen and (max-device-width:425px) and (min-device-width: 320px) 
+{
+
+
+  .container
+  {
+      flex-direction: column !important;
+    
+  }
+
+  nav
+  {
+    width: 40% !important;
+    display: none !important;
+  }
+
+  .main
+  {
+    width: 100% !important  ;
+  }
+  .responsive-header
+  {
+    display: block;
+  }
+
+  .accordion {
+    height: 150px;
+}
+
+.accordion h1 {
+  font-size: 35px;
+}
+
+.accordion p {
+  line-height: 64px;
+  font-size: 26px;
+}
+
+.accordion-image img {
+  width: 19px;
+}
+
+.accordion-image {
+  margin-left: -10%;
+  margin-top: 9.5%;
+}
+
+.round {
+  position: relative;
+}
+
+.round label {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 22px;
+    left: -21px;
+    position: absolute;
+    top: 6px;
+    width: 23px;
+}
+
+.round label:after {
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 6px;
+  left: 4px;
+  opacity: 0;
+  position: absolute;
+  top: 5px;
+  transform: rotate(318deg);
+  width: 10px;
+}
+
+
+.round input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.round input[type="checkbox"]:checked + label {
+  background-color: #B5B5B1;
+  border-color: #B5B5B1;
+}
+
+.round input[type="checkbox"]:checked + label:after {
+opacity: 1;
+}
+}
+
+
+  .card {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+}
+
+/* Custom style for DataTable */
+#myTable_wrapper {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+}
+
+#myTable th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+#myTable td {
+  padding: 8px;
+}
+
+#myTable tr:nth-child(even) {
+  background-color: #e8e8e8;
+}
+
+#myTable tr:hover {
+  background-color: #d4d4d4;
+}
+
+.action-buttons {
+  display: flex;
+}
+
+.actionButton {
+  margin: 5px !important;
+  padding: 5px !important;
+  border-radius: 5px !important;
+  background: #DD5353 !important; 
+}
+
+.actionButton:hover {
+  background-color: #fff !important;
+  color: #DD5353 !important;
+  border: 1px solid #DD5353 !important;
+}
+
+
+
