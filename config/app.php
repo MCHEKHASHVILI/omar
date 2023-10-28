@@ -177,6 +177,7 @@ return [
         Kreait\Laravel\Firebase\ServiceProvider::class,
         App\Providers\FirebaseServiceProvider::class,
         App\Providers\IsopServiceProvider::class,
+        App\Providers\SubscriptionServiceProvider::class,
 
 
     ])->toArray(),
